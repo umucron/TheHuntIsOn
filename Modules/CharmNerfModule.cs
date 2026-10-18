@@ -8,7 +8,7 @@ internal class CharmNerfModule : Module
 {
     #region Properties
 
-    public override string MenuDescription => "Increases the charm notch cost of powerful PvP charms.";
+    public override string MenuDescription => "Adjusts charm notch costs of certain charms.";
 
     #endregion
 
@@ -27,7 +27,7 @@ internal class CharmNerfModule : Module
                             CharmHelper.SetCharmCost(x, 3);
                             break;
                         case 17: // Spore Shroom
-                            CharmHelper.SetCharmCost(x, 2);
+                            CharmHelper.SetCharmCost(x, 3);
                             break;
                         case 23: // Heart
                             CharmHelper.SetCharmCost(x, 3);
