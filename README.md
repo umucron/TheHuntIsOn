@@ -28,11 +28,11 @@ Reduces Elder Baldur (at Greenpath entrance and Ancestral Mound only) HP to 5.
 ### Bench Module
 Benches no longer provide healing. *As the code for healing in the game is a bit sketchy, the hud is disabled and enabled quickly to sync it properly.*
 
-### Charm Nerf Module
-Increases the notch cost of powerful PvP charms by 1. This includes Baldur Shell, Spore Shroom, Heart, and Nailmaster's Glory.
+### Charm Nerf Module -> Charm Cost Module
+Adjusts notch cost to make life harder for the runner.
 
 ### Completion Module
-Unlocks many walls, doors, dive ground etc. all around the map as it has been visited already. Provides starting items.
+Adjusts Hallownest as though it has already been completed. Starting items have been adjusted.
 
 ### Cutscene Skip Module
 Skips or speeds up specific cutscenes. This includes the Mothwing Cloak dreamer sequence, the Dream Nail segment, and the Black Egg Temple door opening sequence.
