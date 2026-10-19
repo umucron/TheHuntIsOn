@@ -23,9 +23,47 @@ internal class CharmNerfModule : Module
                 {
                     switch (charmNumber)
                     {
+                        case 01: // Gathering Swarm
+                            CharmHelper.SetCharmCost(x, 1);
+                            break;
+                        case 02: // Wayward Compass
+                            CharmHelper.SetCharmCost(x, 1);
+                            break;
+                        case 03: // Grubsong
+                            CharmHelper.SetCharmCost(x, 2);
+                            break;
+                        case 04: // Stalwart Shell
+                            CharmHelper.SetCharmCost(x, 2);
+                            break;
                         case 05: // Baldur Shell
                             CharmHelper.SetCharmCost(x, 3);
                             break;
+							
+                        case 06: // Fury
+                            CharmHelper.SetCharmCost(x, 1);
+                            break;
+                        case 07: // Quick Focus
+                            CharmHelper.SetCharmCost(x, 3);
+                            break;
+                        case 08: // Lifeblood Heart
+                            CharmHelper.SetCharmCost(x, 1);
+                            break;
+                        case 09: // Lifeblood Core
+                            CharmHelper.SetCharmCost(x, 2);
+                            break;
+                        case 10: // Defender's Crest
+                            CharmHelper.SetCharmCost(x, 2);
+                            break;
+                        case 11: // Flukenest
+                            CharmHelper.SetCharmCost(x, 2);
+                            break;
+                        case 12: // Thorns of Agony
+                            CharmHelper.SetCharmCost(x, 2);
+                            break;
+                        case 13: // Mark of Pride
+                            CharmHelper.SetCharmCost(x, 4);
+                            break;
+							
                         case 17: // Spore Shroom
                             CharmHelper.SetCharmCost(x, 3);
                             break;
