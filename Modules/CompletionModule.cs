@@ -113,7 +113,7 @@ internal class CompletionModule : Module
     private List<string> _affectedBosspd = new()
     {
         "killedInfectedKnight", // Boss Flag
-        "mawlekDefeated", // Boss Flag
+        /*"mawlekDefeated", // Boss Flag
         "collectorDefeated", // Boss Flag
         "defeatedMegaBeamMiner", // Boss Flag
         "defeatedDungDefender", // Boss Flag
@@ -143,7 +143,7 @@ internal class CompletionModule : Module
         "mumCaterpillarDefeated", // Boss Flag
         "noEyesDefeated", // Boss Flag
         "galienDefeated", // Boss Flag
-        "markothDefeated" // Boss Flag
+        "markothDefeated" // Boss Flag              */
     };
     private List<SceneBoolData> _affectedBoolData = new();
 
@@ -300,18 +300,19 @@ internal class CompletionModule : Module
         {
             var pd = PlayerData.instance;
 
-            pd.maxHealth = 4;
-            pd.maxHealthBase = 4;
+            pd.maxHealth = 5;
+            pd.maxHealthBase = 5;
 
             pd.lurienDefeated = true;
             pd.monomonDefeated = true;
             pd.hegemolDefeated = true;
 
-            pd.charmSlots = 6;
+            pd.charmSlots = 12;
             pd.gotCharm_36 = true;
             pd.gotCharm_3 = true;
+            pd.gotCharm_2 = true;
             pd.royalCharmState = 3;
-            pd.equippedCharm_3 = true;
+            pd.equippedCharm_2 = true;
             pd.equippedCharm_36 = true;
 
             pd.hasDreamNail = true;
@@ -324,7 +325,7 @@ internal class CompletionModule : Module
             pd.hasMap = true;
             pd.gladeDoorOpened = true;
             pd.troupeInTown = true;
-            pd.geo = 9999;
+            pd.geo = 10000;
         }
     }
 
