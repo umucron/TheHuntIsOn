@@ -19,17 +19,20 @@ internal class StartingItemsModule : Module
         {
             var pd = PlayerData.instance;
 
-            pd.maxHealth = 4;
-            pd.maxHealthBase = 4;
+            pd.maxHealth = 5;
+            pd.maxHealthBase = 5;
 
             pd.lurienDefeated = true;
             pd.monomonDefeated = true;
             pd.hegemolDefeated = true;
 
-            pd.charmSlots = 5;
+            pd.charmSlots = 10;
             pd.gotCharm_36 = true;
+            pd.gotCharm_2 = true;
             pd.royalCharmState = 3;
             pd.equippedCharm_36 = true;
+            pd.equippedCharm_2 = true;
+            
 
             pd.hasDreamNail = true;
             pd.dreamNailUpgraded = true;
@@ -42,7 +45,7 @@ internal class StartingItemsModule : Module
             //pd.mapAllRooms = true;
             pd.gladeDoorOpened = true;
             pd.troupeInTown = true;
-            pd.geo = 9999;
+            pd.geo = 10000;
         }
     }
 
