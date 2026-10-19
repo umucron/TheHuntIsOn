@@ -16,7 +16,7 @@ internal class BaldurModule : Module
 {
     #region Properties
 
-    public override string MenuDescription => "Reduces the HP of Elder Baldurs to 5.";
+    public override string MenuDescription => "Reworks enemy HP values.";
 
     #endregion
 
